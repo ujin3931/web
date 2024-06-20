@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: normal; font-style: normal; 
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff'); font-weight: 500; font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    width: 100%;
+    height: 2618px;
+    background-image: url(img/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.con1{
+    width: 1100px;
+    height: 177px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+.img01{
+    display: block;
+    position: relative;
+    top: 23px;
+    left: 376px;
+}
+.img02{
+    display: block;
+    position: relative;
+    top: 43px;
+    left: 155px;
+}
+.img03{
+    display: block;
+    position: relative;
+    top: 226px;
+    left: -195px;
+}
+.con01{
+    width: 793px;
+    height: 738px;
+    padding-top: 43px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+}
+.box2{
+    width: 100%;
+    height: 615px;
+    background-color: #FFD566;
+    background-position: center;
+    background-size: cover;
+}
+.con2{
+    width: 1100px;
+    height: 615px;
+    margin: 0 auto;
+    text-align: center;
+}
+.img04{
+    display: block;
+    padding-top: 110px;
+    position: absolute;
+    padding-left: 506px;
+}
+.txt1{
+    padding-top: 224px;
+    padding-left: 65px;
+    width: 384px;
+    height: 167px;
+    position: absolute;
+    font-family: 'yg-jalnan';
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+}
+
+.box3{
+    width: 100%;
+    height: 1980px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    top: 3235px;
+}
+.con3{
+    width: 1100px;
+    height: 962px;
+    margin: 0 auto;
+    text-align: center;
+}
+.img05{
+    margin: 0 auto;
+    padding-top: 137px;
+    left: -28px;
+    position: relative;
+}
+.img06{
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    top: -33px;
+}
+.txt2{
+    width: 437px;
+    height: 71px;
+    position: relative;
+    padding-left: 45px;
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+    color: #818181;
+    top: -10px;
+}
+
+.con4{
+    width: 1100px;
+    height: 1018px;
+    margin: 0 auto;
+    text-align: center;
+}
+.img07{
+    margin: 0 auto;
+    padding-left: 18px;
+    position: relative;
+}
+.img08{
+    display: block;
+    position: relative;
+    padding-left: 845px;
+    top: -33px;
+}
+.txt3{
+    width: 437px;
+    height: 71px;
+    position: relative;
+    padding-left: 583px;
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    line-height: 35px;
+    text-align: right;
+    color: #818181;
+    top: -10px;
+}
+
+.box4{
+    width: 100%;
+    height: 861px;
+    margin: 0 auto;
+    background-color: #7DB07F;
+    top: 5214px;
+}
+.con5{
+    width: 1100px;
+    height: 861px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.img09{
+    display: block;
+    position: absolute;
+    padding-top: 91px;
+    padding-left: 42px;
+}
+.txt4{
+    padding-top: 245px;
+    width: 384px;
+    height: 235px;
+    left: 651px;
+    font-family: 'yg-jalnan';
+    font-size: 30px;
+    line-height: 50px;
+    color: #ffffff;  
+    position: relative;
+}
+.btn {
+    width: 190px;
+    height: 70px;
+    padding: 13px 39px;
+    border: 4px solid #ffffff;
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+    color: #ffffff;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-top: 64px;
+    margin-left: 582px;
+  }
+.btn:hover {
+    background: #ffffff;
+   color: #7DB07F;
+   border: 0px;
+}
+.btn:before {
+    position: absolute;
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
